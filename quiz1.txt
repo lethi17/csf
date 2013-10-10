@@ -1,0 +1,6 @@
+# Grader name: Nicholas Hefling
+# Evergreen login: hefnic26
+
+import lab 2
+print n
+str(Hello world)+"n"
