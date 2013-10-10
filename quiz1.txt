@@ -1,0 +1,6 @@
+# Grader Name: Huong Le
+# Evergreen Login: lethi17
+
+import lat 2:
+    import n:
+        print "Hello world" * n:
