@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Huong Le    
+# Evergreen Login: lethi17
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 2
@@ -126,6 +126,5 @@ print x
 ### Reflection
 ###
 
-# ... Write how long this assignment took you, including doing all the readings
-# ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
+This hw took me four hours to do with the help of the tutors.
+Kahea and Alex and Hao
