@@ -14,10 +14,18 @@
 ### Problem 1
 ###
 
+
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+import hw2_test
+x=1
+a=0
+while (x <= hw2_test.n):
+    a = a + x
+    x = x + 1
+print a
+
 
 
 ###
@@ -27,7 +35,9 @@ print "Problem 1 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+for i in range (2, 10 + 1):
+
+    print (1.0 / i)
 
 
 ###
@@ -36,8 +46,14 @@ print "Problem 2 solution follows:"
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
+acc = 0
+for i in range ( 1,10 +1 ):
+    acc = acc + i 
+print acc
 
-# ... write your code and comments here (and remove this line)
+print 10*(10+1)/2
+
+
 
 ###
 ### Problem 4
@@ -46,7 +62,18 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+z = 1
+
+for i in range (1,n+1):
+    z= z*i
+
+print z
+
+    
+
+
+
 
 ###
 ### Problem 5
@@ -54,8 +81,19 @@ print "Problem 4 solution follows:"
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
+z=1
+n=10
+for i in range (1,n+1):
+    z= z*i
+for i in range (10,0,-1):
+    
+    print z
+    z = z/i
+    
+    
 
-# ... write your code and comments here (and remove this line)
+
+
 
 ###
 ### Problem 6
@@ -63,8 +101,19 @@ print "Problem 5 solution follows:"
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
+x = 1
 
-# ... write your code and comments here (and remove this line)
+for i in range (1, 10+1):
+    
+    f = 1
+    for j in range (1,i+1):
+        f = f * j
+    
+    
+    print f
+    x = x + (1.0/f)
+print x
+ 
 
 ###
 ### Collaboration
