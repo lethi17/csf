@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 # Grader Name: Huong Le
 # Evergreen Login: lethi17
 
 import lat 2:
     import n:
         print "Hello world" * n:
+=======
+# Grader name: Nicholas Hefling
+# Evergreen login: hefnic26
+
+import lab 2
+print n
+str(Hello world)+"n"
+>>>>>>> 9774dfae4590ebf6a6308cdb4db6c682f2a2e46b
