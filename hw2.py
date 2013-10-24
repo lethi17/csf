@@ -119,8 +119,7 @@ print x
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# She worked with the tutors, Alex and Kahea
 
 ###
 ### Reflection
