@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+Name: Huong Le	
+Evergreen Login:lethi17		
+=======
 Name: Huong Le  
 Evergreen Login: lethi17
+>>>>>>> bb98faf73e6fcdf5b0313fbbab359e177619d3b3
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
@@ -19,6 +24,21 @@ Problem 1:
 
 Problem 2:
 
+<<<<<<< HEAD
+
+GC-content: 0.43029262963
+
+Problem 3:
+Our variables that we needed for the function was no longer define. Therefore it gives you the error lenenum is not define.
+
+When I comment out gc_count = 0 it would give me gc_count not defined error as well. The gc_count is a define variable that counts up the total. 
+Therefore it must give it a variable 0 since we want the total count. 
+
+
+Problem 4:
+
+I  duplicate the loop that was already there. Not sure if I did this right.
+=======
 ...
 
 Problem 3:
@@ -29,10 +49,15 @@ Problem 4:
 
 ...
 
+>>>>>>> bb98faf73e6fcdf5b0313fbbab359e177619d3b3
 Collaboration:
 
 ...
 
 Reflection:
 
+<<<<<<< HEAD
+This hw was really hard for me, I was confused on how to get started. Using the command line was something that I wasn't used to. Worked with Tutors and Trong. 
+=======
 ...
+>>>>>>> bb98faf73e6fcdf5b0313fbbab359e177619d3b3
