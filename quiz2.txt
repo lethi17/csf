@@ -1,0 +1,16 @@
+import lab2:
+
+n = X+2
+
+if x > 50:
+
+  print n
+
+else X < 50:
+
+  print ('food')
+  
+if x = 50:
+  
+  print 0
+
