@@ -46,10 +46,13 @@ def solver( a, b, c):
 
 print "Problem 2 solution follows:"
 
-import hw1_test
-
-print ( str(hw1_tets.a)print ( str(hw1_test.a) + "\n" + str(hw1_test.b) + "\n" + str(hw1_test.c) + "\n" + str(hw1_test.d) + "\n" + str(hw1_test.e) + "\n" + str(hw1_test.f) )
-
+import hw1_test.pdf
+print hw1_test.a
+print hw1_test.b
+print hw1_test.c
+print hw1_test.d
+print hw1_test.e
+print hw1_test.f
 
 ###
 ### Problem 3
@@ -57,7 +60,18 @@ print ( str(hw1_tets.a)print ( str(hw1_test.a) + "\n" + str(hw1_test.b) + "\n" +
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+# print "Problem 2 solution follows:"
+
+
+
+import hw1_test
+
+print ( str(hw1_tets.a)print ( str(hw1_test.a) + "\n" + str(hw1_test.b) + "\n" + str(hw1_test.c) + "\n" + str(hw1_test.d) + "\n" + str(hw1_test.e) + "\n" + str(hw1_test.f) )
+
+
+
+
+
 
 
 ###
