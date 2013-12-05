@@ -37,15 +37,23 @@ Therefore it must give it a variable 0 since we want the total count.
 
 Problem 4:
 
-I  duplicate the loop that was already there. Not sure if I did this right.
-=======
-...
+# Total nucleotides seen so far.
+total_count = 0
+# Number of G&C and A&T nucleotides seen so far.
+gc_count = 0
+at_count = 0
 
+# for each base pair in the string,
+for bp in seq:
+    # increment the total number of bps we've seen
+    total_count = total_count + 1
 
-
-...
-
-
+    # next, if the bp is a G or a C, else if bp is A or T
+    if bp == 'C' or bp == 'G':
+        # increment the count of gc
+        gc_count = gc_count + 1
+    elif bp == 'A' or bp == 'T':
+        at_count = at_count + 1
 
 
 Problem 5:
