@@ -24,10 +24,20 @@ practice_graph.add_node("C")
 practice_graph.add_edge("A", "B")
 practice_graph.add_edge("A", "C")
 practice_graph.add_edge("B", "C")
+)
+# TODO: Add more here...
+practice_graph.add_node("E")
+practice_graph.add_node("F")
 
-
-G.add_edges_from([('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'F'), ('F', 'D'),('D','E')])
-Draw.nx(G)
+practice_graph.add_edge("A", "B")
+practice_graph.add_edge("A", "C")
+practice_graph.add_edge("B", "C")
+# TODO: Add more here...
+practice_graph.add_edge("B", "D")
+practice_graph.add_edge("C", "D")
+practice_graph.add_edge("C", "F")
+practice_graph.add_edge("D", "F")
+practice_graph.add_edge("D", "E")
 assert len(practice_graph.nodes()) == 6
 assert len(practice_graph.edges()) == 8
 
