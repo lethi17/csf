@@ -48,20 +48,27 @@ def state_edges(election_result_rows):
 # Problem 2: Find the most recent poll row
 ################################################################################
 
-def earlier_date(date1, date2):
+def row_to_edge(row):
     """
-    Given two dates as strings (formatted like "Oct 06 2012"), returns True if 
-    date1 is after date2.
+    Given an election result row or poll data row, returns the Democratic edge
+    in that state.
     """
-    return (time.strptime(date1, "%b %d %Y") < time.strptime(date2, "%b %d %Y"))
+    return float(row["Dem"]) - float(row["Rep"])  
 
-def most_recent_poll_row(poll_rows, pollster, state):
+def state_edges(election_result_rows):
     """
-    Given a list of poll data rows, returns the most recent row with the
-    specified pollster and state. If no such row exists, returns None.
+    Given a list of election result rows, returns state edges.
+    The input list does has no duplicate states;
+    that is, each state is represented at most once in the input list.
     """
-    #TODO: Implement this function
+     edge = {}
+    
+    for x in election_result_rows:
+        state = (x['State'])
+        edge[state] = row_to_edge(x)
+    return edge
     pass
+
 
 
 ################################################################################
