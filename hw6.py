@@ -34,6 +34,25 @@ for constants in 'Python Is A Great Programming Language!':
 ###
 print "Problem 4 solution follows:
 
+hlist= [1, 2.2, 3, 4.2]
+i = 0
+while i < len(hlist):
+    print hlist [i] 
+    i = i + 1
+
+
+
+
+hlist= [1, 2.2, 3, 4.2]
+total = 0
+i = 0
+while i < len(hlist):
+    total = total +hlist[i]
+    
+    i = i + 1
+    
+average = total / len(hlist)
+print average
 
 
 
