@@ -107,11 +107,22 @@ print slist[2]
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
+months = { 1 : "January", 
+        2 : "February", 
+        3 : "March", 
+        4 : "April", 
+        5 : "May", 
+        6 : "June", 
+        7 : "July",
+        8 : "August",
+        9 : "September", 
+        10 : "October", 
+        11 : "November",
+        12 : "December" } 
+for key in months:
+    print key, months[key]
 ###
 ### The website that I used was. http://www.tutorialspoint.com
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# I was working on this by myself. I was amazed to see the progress that I have gain by doing codeacademy. I was able to complete this assignment. I also used google.
