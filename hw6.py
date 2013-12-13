@@ -96,7 +96,9 @@ print average
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+slist = [ "yellow","Red","Blue","Purple","Green" ]
+print slist
+print slist[2]
 
 ###
 ### Problem 7
