@@ -1,6 +1,6 @@
 Do the following to get credit:
 
-* Finish hw6.py (solving the other team's problems) and commit it to your github repo.
+[DONE] Finish hw6.py (solving the other team's problems) and commit it to your github repo.
 * Finish problem 1b on hw8 to generate the romeo-and-juliet.pdf picture. Commit this and the file
   social_network.py to your github repo.
 * Write and submit your self-eval and faculty evals for me, Neal, and Sherri online at my.evergreen.edu
