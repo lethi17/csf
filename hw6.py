@@ -72,7 +72,22 @@ print average
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+hlist= [1, 2.2, 3, 4.2]
+tlist=[5.2, 6.8, 7.5]
+list3= hlist +tlist 
+
+total = 0
+i = 0
+while i < len(list3):
+    total = total +list3[i]
+    
+    i = i + 1
+    
+average = total / len(list3)
+
+hlist.append(tlist)
+
+print average
 
 ###
 ### Problem 6
