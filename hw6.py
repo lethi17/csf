@@ -17,15 +17,6 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
-
-###
-### Problem 4
-###
-
-# DO NOT CHANGE THE FOLLOWING LINE
-print "Problem 4 solution follows:"
 for vowels in 'Python Is A Great Programming Language!':
     if vowels == 'constant':
         break 
@@ -36,6 +27,20 @@ for constants in 'Python Is A Great Programming Language!':
     if constants== 'constant':
         break 
     print 'number of constatns: ', constants
+
+
+###
+### Problem 4
+###
+print "Problem 4 solution follows:
+
+
+
+
+
+
+# DO NOT CHANGE THE FOLLOWING LINE
+
 
 
     
