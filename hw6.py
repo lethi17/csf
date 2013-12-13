@@ -1,4 +1,4 @@
-# Name: Huong       
+# Name: Huong Le     
 # Evergreen Login: Lethi17  
 # Computer Science Foundations
 # Programming as a Way of Life
