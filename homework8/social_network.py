@@ -55,8 +55,6 @@ draw_practice_graph()
 ### Problem 1b
 ###
 
-# (Your code goes here.)
-
 rj=nx.Graph()
 #nodes
 rj.add_node("Nurse")
